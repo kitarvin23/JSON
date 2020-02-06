@@ -10,7 +10,7 @@ class gadget{
 		}
 	}
 	
-	public function get_track(){
+	public function get_gadget(){
 		$sql = "SELECT * FROM tbl_gadget";
 		$result = mysqli_query($this->db,$sql);
 		while($row = mysqli_fetch_assoc($result)){
